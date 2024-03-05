@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Components/Header/Header";
+import MainPage from "./Components/Main-page/Main-page"
+// import game from './images/game.png'
+import PageProgress from "./Components/pageProgress/PageProgress";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <MainPage />
+      {/* <div style={{width: '100%'}}>
+        <img src={game} alt="sdfg" />
+      </div> */}
+      <PageProgress />
     </div>
   );
 }

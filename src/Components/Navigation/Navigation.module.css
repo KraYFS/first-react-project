@@ -1,0 +1,11 @@
+.nav_links {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .3s all;
+}
+
+.nav_links:hover {
+    color: #43F272;
+}
