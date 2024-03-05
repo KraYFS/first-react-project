@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 320px;
+    padding-top: 32px;
 }
 
 .header_logo {
@@ -32,10 +32,4 @@
 
 .header_btn:hover {
     background-color: #43f27241;
-}
-
-@media screen and (max-width: 1440px) {
-    .header_inner {
-        padding: 32px 100px;
-    }
 }

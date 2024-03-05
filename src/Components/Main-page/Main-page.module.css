@@ -13,15 +13,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 218px 320px 0px 0px;
+    padding: 218px 0px 0px 0px;
     float: right;
 }
 
 @media screen and (max-width: 1440px) {
-    .main_page_title {
-        padding: 218px 100px 0px 0px;
-    }
-
     .main_page {
     background: url('./main-page-background.png') center no-repeat;
     }

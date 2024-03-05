@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: "Montserrat", sans-serif;
     background-color: #170D1C;
 }
 ol, ul {
@@ -48,4 +49,16 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1300px;
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1000px;
+    }
 }
