@@ -12,7 +12,7 @@ function App() {
       {/* <div style={{width: '100%'}}>
         <img src={game} alt="sdfg" />
       </div> */}
-      {/* <TitleBlock /> */}
+      <TitleBlock />
     </div>
   );
 }
