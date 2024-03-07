@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Components/Header/Header";
 import MainPage from "./Components/Main-page/Main-page"
 import OurTeam from "./Components/OurTeam/OurTeam";
+import OurCapabilities from "./Components/OurCapabilities/OurCapabilities";
 // import game from './images/game.png'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <img src={game} alt="sdfg" />
       </div> */}
       <OurTeam />
+      <OurCapabilities />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import PageProgress from './pageProgress/PageProgress';
+import PageProgress from '../UI/pageProgress/PageProgress';
 import classes from './TittleBlock.module.css'
 
 const TitleBlock = (props) => {
@@ -7,7 +7,7 @@ const TitleBlock = (props) => {
         <div className={classes.titleBlock}>
             <div className="container">
                 <div className={classes.titleAndProgress}>
-                    <PageProgress numberPage='1' progress="32px" />
+                    <PageProgress numberPage={props.numberPage} progress={props.progress} />
                     <div className={classes.title}>{props.title}</div>
                 </div>
                 <svg width="1300" height="16" viewBox="0 0 1300 16" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -19,7 +19,7 @@ const OurTeam = () => {
     return (
         <div>
             <div className="container">
-                <TitleBlock title='Наша команда' />
+                <TitleBlock progress='32px' numberPage='1' title='Наша команда' />
                 <div className={classes.OurTeamBlock}>
                     <OurTeamItem imageSrc={image1} itemTitle='Max Wiwi' itemSubTitle='Президент студии' />
                     <OurTeamItem imageSrc={image2} itemTitle='Well Sofi' itemSubTitle='Президент студии' />
