@@ -5,7 +5,6 @@
     width: 311px;
     height: 6px;
     border: 1px solid #09ff00;
-
 }
 
 .inputRange {
@@ -25,4 +24,6 @@
 
 .PageProgressBar {
     float: right;
+    margin-bottom: 16px;
+    margin-right: 22px;
 }

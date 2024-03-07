@@ -1,0 +1,28 @@
+.ourTeamItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 16px 20px 0px;
+    flex-direction: column;
+    width: 200px;
+    height: 273px;
+}
+
+.itemImage {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.itemTitle {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.itemSubTitle {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}

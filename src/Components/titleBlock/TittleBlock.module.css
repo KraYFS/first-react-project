@@ -1,9 +1,12 @@
-.titleBlock {
-
-}
-
 .title {
     font-size: 25px;
     color: #fff;
     text-align: center;
+    margin-right: 217px;
+}
+
+.titleAndProgress {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
 }
