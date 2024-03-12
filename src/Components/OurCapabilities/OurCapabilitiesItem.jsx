@@ -5,9 +5,9 @@ const OurCapabilitiesItem = (props) => {
     return (
         <div className={classes.OurCapabilitiesItem}>
             <div className={classes.OurCapabilitiesItem_inner}>
-            <img src={props.imageSrc} alt="" />
-            <div className={classes.itemTitle}>{props.title}</div>
-            <div className={classes.itemSubTitle}>{props.subTitle}</div>
+                <img src={props.imageSrc} alt="" />
+                <div className={classes.itemTitle}>{props.title}</div>
+                <div className={classes.itemSubTitle}>{props.subTitle}</div>
             </div>
         </div>
     );
